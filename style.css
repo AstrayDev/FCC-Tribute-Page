@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    overflow-y: scroll;
+}
+.container{
+    display: inline-block;
+    border: none;
+    height: 20vh;
+    margin: 2em auto;
+    background-color: rgba(204, 199, 199,0.6);
+    width: 100%;
+    align-items: center;
+}
+header{
+    display: flex;
+    height: 50px;
+}
+.title{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
+.top-remark{
+    display: block;
+    font-size: 20px;
+}
+.images{
+    height: 300px;
+    width: 20%;
+    display: flex;
+    object-fit: cover;
+    margin: 10rem 10rem auto;
+}
+cite{
+margin: 20px 0 0 40rem;
+}
+figcaption{
+    display: block;
+    margin: 20px 52.5rem 0 0;
+}
+#history{
+    display: block;
+    text-align: center;
+    margin: -22rem auto;
+    max-width: 100%;
+    padding: 10px 350px 250px 10px;
+    background-color: rgba(204, 199, 199,0.4);
+}
+.segments{
+    border-bottom: 2px solid;
+    width: 85%;
+    margin:auto 31rem;
+    padding-left: 20px;
+    text-align: left;
+}
+.life{
+    margin: 0 0 0 35rem;
+    width: 80%;
+    padding: 15px 0 20px 0;
+    text-align: center;
+}
+#death{
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+}
+footer{
+    margin: 18rem 0 0 0;
+}
